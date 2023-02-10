@@ -1,0 +1,5 @@
+Gopath default = %USERPROFILE%\go
+
+updated go path = C:\Lucky\Coding\mygolang
+
+if any problem arises again save the default go path in environment variable
