@@ -41,7 +41,7 @@ func main() {
 	highscores = append(highscores, 777,888,55,66,4,2,45,56 )    // append wll reallocate the memory (here it is slices)
 	fmt.Println(highscores)
 
-	sort.Ints(highscores)           // sorts pkg sotrs the slice , Ints means in increasing order  (type sort.  to see more funs)
+	sort.Ints(highscores)           // sorts pkg sotrs the slice , Ints means in increasing order  (type sort.  to see more funs.)
 	fmt.Println(highscores)
 	fmt.Println(sort.IntsAreSorted(highscores))        // is slice sorted ? 
 
